@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidao | Portfolio Data Science, IA & Montage Vidéo</title>
+    <meta name="description"
+        content="Portfolio de Lidao - Étudiant en Data Science & IA, passionné par l'alliance du montage vidéo et de la technologie. Découvrez mes réalisations et compétences.">
+
+    <!-- Open Graph / SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lidao | Portfolio Data Science, IA & Montage Vidéo">
+    <meta property="og:description"
+        content="Découvrez le portfolio de Lidao. Étudiant passionné par la Data Science, l'IA et le montage vidéo.">
+    <meta property="og:image" content="Lidao-portrait-pro.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Leaflet & SVG / Custom styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Arrière-plan dynamique subtil -->
+    <div class="bg-glow"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">LIDAO<span class="dot">.</span></a>
+            <nav class="nav-menu">
+                <a href="#accueil" class="nav-link active">Accueil</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content fade-in-element">
+                <span class="hero-subtitle">Portfolio Personnel</span>
+                <h1 class="hero-title">Lidao</h1>
+                <p class="hero-intro">
+                    <span class="highlight">25 ans</span> et étudiant en <span class="highlight">Data Science</span> et
+                    en <span class="highlight">IA</span>. Passionné par l'alliance du <span class="highlight">montage
+                        vidéo</span> et de la <span class="highlight">technologie</span>.
+                </p>
+                <p class="hero-desc">
+                    De nature <span class="highlight">zen et calme</span>, j'aime apporter une touche de <span
+                        class="highlight">créativité</span> et d'<span class="highlight">authenticité</span>.
+                </p>
+                <p class="hero-quote">
+                    Lorsque je travaille sur un montage, c'est sur le travail de <span
+                        class="highlight">narration</span> et la <span class="highlight">gestion du son</span> que je
+                    m'attarde le plus (des effets sonores jusqu'à la musique de fond), tout doit <span
+                        class="highlight">bien s'harmoniser</span>.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image-container fade-in-element">
+                <div class="profile-pic-wrapper">
+                    <img src="Lidao-portrait-pro.jpg" alt="Portrait de Lidao" class="profile-pic" id="profile-pic">
+                    <div class="profile-ring"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#projets" class="scroll-down" aria-label="Défiler vers le bas">
+            <span class="scroll-mouse">
+                <span class="scroll-wheel"></span>
+            </span>
+        </a>
+    </section>
+
+    <!-- Section Projets (Vidéos) -->
+    <section id="projets" class="projets-section">
+        <div class="section-container">
+            <div class="section-header text-center fade-in-element">
+                <span class="section-tag">Créations</span>
+                <h2 class="section-title">Mes Montages Vidéo</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc">
+                    Une sélection de mes travaux de montage, alliant narration visuelle, rythme sonore et précision
+                    technique.
+                </p>
+            </div>
+
+            <div class="projects-grid fade-in-element">
+                <!-- Projet 1 -->
+                <div class="project-card" data-video="Videos/Ahmed_v2.mp4" data-title="Ahmed (Version 2)">
+                    <div class="video-preview-container">
+                        <video class="video-preview" src="Videos/Ahmed_v2.mp4" preload="metadata" muted
+                            playsinline></video>
+                        <div class="card-overlay">
+                            <div class="play-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="play-icon">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Montage & Narration</span>
+                        <h3 class="project-title">Fonctionnement d'une LUT (Vidéo pour le créateur : Ahmed Sarr)</h3>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card" data-video="Videos/ON_PREDIT_MILS_IV.mp4" data-title="On Prédit Mils IV">
+                    <div class="video-preview-container">
+                        <video class="video-preview" src="Videos/ON_PREDIT_MILS_IV.mp4" preload="metadata" muted
+                            playsinline></video>
+                        <div class="card-overlay">
+                            <div class="play-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="play-icon">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Édition & Rythme</span>
+                        <h3 class="project-title">Prédiction des ventes de l'album MILS IV</h3>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="project-card" data-video="Videos/Rendu_(Video_Meta)(2).mp4"
+                    data-title="Vidéo Meta (Rendu 2)">
+                    <div class="video-preview-container">
+                        <video class="video-preview" src="Videos/Rendu_(Video_Meta)(2).mp4" preload="metadata" muted
+                            playsinline></video>
+                        <div class="card-overlay">
+                            <div class="play-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="play-icon">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Créativité Visuelle</span>
+                        <h3 class="project-title">Montage pour Jems Barber</h3>
+                    </div>
+                </div>
+
+                <!-- Projet 4 -->
+                <div class="project-card" data-video="Videos/Rendu_3.mp4" data-title="Rendu 3">
+                    <div class="video-preview-container">
+                        <video class="video-preview" src="Videos/Rendu_3.mp4" preload="metadata" muted
+                            playsinline></video>
+                        <div class="card-overlay">
+                            <div class="play-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="play-icon">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Animation & Effets</span>
+                        <h3 class="project-title">Montage n°2 pour Jems Barber </h3>
+                    </div>
+                </div>
+
+                <!-- Projet 5 -->
+                <div class="project-card" data-video="Videos/Test_Histoire_Criminelle.mp4"
+                    data-title="Test Histoire Criminelle">
+                    <div class="video-preview-container">
+                        <video class="video-preview" src="Videos/Test_Histoire_Criminelle.mp4" preload="metadata" muted
+                            playsinline></video>
+                        <div class="card-overlay">
+                            <div class="play-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="play-icon">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Sound Design & Narration</span>
+                        <h3 class="project-title">Histoire Criminelle à Sevran</h3>
+                    </div>
+                </div>
+
+                <!-- Projet 6 -->
+                <div class="project-card" data-video="Videos/tournoi_ia_1.mp4" data-title="Tournoi IA (Épisode 1)">
+                    <div class="video-preview-container">
+                        <video class="video-preview" src="Videos/tournoi_ia_1.mp4" preload="metadata" muted
+                            playsinline></video>
+                        <div class="card-overlay">
+                            <div class="play-icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="play-icon">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Data & IA Storytelling</span>
+                        <h3 class="project-title">Prédire un tournoi avec l'IA</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="competences-section">
+        <div class="section-container">
+            <div class="section-header text-center fade-in-element">
+                <span class="section-tag">Savoir-faire</span>
+                <h2 class="section-title">Mes Compétences</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc">
+                    Un profil hybride combinant la rigueur scientifique de l'IA et la sensibilité esthétique du design
+                    et du montage.
+                </p>
+            </div>
+
+            <div class="competences-grid fade-in-element">
+                <!-- Catégorie Montage -->
+                <div class="competence-card">
+                    <div class="comp-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" class="comp-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0V18m0-1.5h7.5m0 0V18m-7.5 0v2.25C6 21.75 4.5 21 4.5 19.5V18m7.5 0v2.25c0 1.5-1.5 .75-1.5-.75V18" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 7.5l3 3-3 3" />
+                        </svg>
+                    </div>
+                    <h3 class="comp-category-title">Montage vidéo</h3>
+                    <ul class="comp-list">
+                        <li>Capcut</li>
+                        <li>Filmora</li>
+                    </ul>
+                </div>
+
+                <!-- Catégorie Programmation -->
+                <div class="competence-card">
+                    <div class="comp-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" class="comp-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                        </svg>
+                    </div>
+                    <h3 class="comp-category-title">Programmation & IA</h3>
+                    <ul class="comp-list">
+                        <li>Python (Data Science, ML)</li>
+                        <li>Javascript (Web Dev)</li>
+                    </ul>
+                </div>
+
+                <!-- Catégorie Graphisme -->
+                <div class="competence-card">
+                    <div class="comp-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" class="comp-icon">
+                            <rect x="3" y="3" width="4" height="4" rx="1" />
+                            <rect x="17" y="3" width="4" height="4" rx="1" />
+                            <rect x="17" y="17" width="4" height="4" rx="1" />
+                            <rect x="3" y="17" width="4" height="4" rx="1" />
+                            <path d="M5 7v10M19 7v10M7 5h10M7 19h10" />
+                            <path d="M9 12a3 3 0 1 0 6 0 3 3 0 1 0 -6 0" />
+                        </svg>
+                    </div>
+                    <h3 class="comp-category-title">Graphisme</h3>
+                    <ul class="comp-list">
+                        <li>Inkscape</li>
+                        <li>Affinity</li>
+                        <li>Photoshop</li>
+                        <li>InDesign</li>
+                    </ul>
+                </div>
+
+                <!-- Catégorie Illustration -->
+                <div class="competence-card">
+                    <div class="comp-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" class="comp-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.3211 19.4674 5.50346 20.127 5.34094 20.7616L5.1611 21.4633C5.03923 21.9395 5.46067 22.3789 5.93774 22.2596L6.6433 22.0833C7.26428 21.928 7.91037 22.1009 8.37525 22.5492L8.37689 22.5508C9.39054 22.1906 10.658 22 12 22Z" />
+                            <circle cx="7.5" cy="10.5" r="1.5" fill="currentColor" />
+                            <circle cx="11.5" cy="7.5" r="1.5" fill="currentColor" />
+                            <circle cx="16.5" cy="9.5" r="1.5" fill="currentColor" />
+                            <circle cx="15.5" cy="14.5" r="1.5" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="comp-category-title">Illustration</h3>
+                    <ul class="comp-list">
+                        <li>Gimp</li>
+                        <li>Krita</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header text-center fade-in-element">
+                <span class="section-tag">Connexion</span>
+                <h2 class="section-title">Discutons de vos projets</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc">
+                    Que ce soit pour un projet de montage vidéo, une collaboration en Data Science / IA, ou simplement
+                    pour échanger.
+                </p>
+            </div>
+
+            <div class="contact-card fade-in-element">
+                <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        stroke-width="1.5" class="email-svg">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0l-7.5-4.615m19.5 0v-2.25" />
+                    </svg>
+                </div>
+                <h3 class="contact-email-title">Adresse Email</h3>
+                <div class="email-wrapper">
+                    <span class="email-address" id="email-address">lidao.alouda@gmail.com</span>
+                    <button class="btn-copy" id="btn-copy" aria-label="Copier l'adresse email">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            stroke-width="1.5" class="copy-svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H5.25m11.9-3.675a.625.625 0 00-.625-.625H12m-3 0H6.25a.625.625 0 00-.625.625v1.5m3.75 12h.008v.008H9.375V15zm0-3h.008v.008H9.375V12zm3 3h.008v.008h-.008V15zm0-3h.008v.008h-.008V12zm3 3h.008v.008h-.008V15zm0-3h.008v.008h-.008V12z" />
+                        </svg>
+                        <span class="tooltip" id="copy-tooltip">Copier</span>
+                    </button>
+                </div>
+                <a href="mailto:lidao.alouda@gmail.com" class="btn btn-primary btn-mail">Envoyer un message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pour lecture vidéo -->
+    <div class="video-modal" id="video-modal">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Fermer la vidéo">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <h3 class="modal-video-title" id="modal-video-title">Titre du Projet</h3>
+            <div class="modal-video-wrapper">
+                <video id="modal-video-player" controls autoplay playsinline></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 Lidao. Tous droits réservés.</p>
+            <p class="footer-sub">Conçu avec sobriété, créativité & authenticité.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
