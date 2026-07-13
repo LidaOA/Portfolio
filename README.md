@@ -41,3 +41,4 @@ Le dépôt est configuré pour être publié directement via **GitHub Pages** :
 - Les vidéos volumineuses sont gérées par **Git LFS**.
 - Le fichier `.nojekyll` indique à GitHub Pages de servir le site directement sans passer par Jekyll.
 - Configuration recommandée sur GitHub : Allez dans **Settings > Pages** de votre dépôt, et sélectionnez la branche `main` comme source de déploiement.
+
